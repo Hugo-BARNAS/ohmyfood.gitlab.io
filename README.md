@@ -1,14 +1,12 @@
 # ohmyfood
 
-Dynamisez une page web avec des animations CSS : html, scss
+Dynamisez une page web avec des animations CSS 
 
 ## Contexte
 
 - Réalisation d'un site du restaurant ohmyfood en html et scs responive mobile first.
 - 1 page d'accueil
 - 4 pages contenant le menu du restaurant
-
-
 
 ## Les maquettes
 
@@ -22,7 +20,12 @@ Dynamisez une page web avec des animations CSS : html, scss
 
 ### Page 4 du menu
 
+## Techno utilisées
 
+- html
+- scss
+- visual studio code
+- GitLab Pages
 
 ## Récupération du projet
 
