@@ -18,14 +18,15 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  // box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 /**
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+  color: $dark-grey;
   text-decoration: none;
 
   @include on-event {
@@ -37,4 +38,3 @@ a {
 /**
  * Basic styles for body
  */
-
