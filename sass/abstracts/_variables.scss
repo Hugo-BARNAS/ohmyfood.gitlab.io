@@ -1,0 +1,93 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack:'Roboto', sans-serif;
+
+
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+
+
+
+/// Copy text color
+/// @type Color
+$text-color: #222222 !default;
+
+/// Main brand color
+/// @type Color
+$primary-color: #9356DC  !default;
+
+/// Light pink
+/// @type Color
+$secondary-color: #FF79DA  !default;
+
+///  secondary color very Light pink
+/// @type Color
+$secondary-color-very-light: rgb(236, 175, 219)  !default;
+
+/// Medium green
+/// @type Color
+$tertiary-color: #99E2D0 !default;
+
+/// dark green
+/// @type Color
+$tertiary-color-dark: #247a65 !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// light grey
+/// @type Color
+$light-grey: rgba(165, 164, 164, 0.8) !default;
+
+/// light grey opacity 0.3
+/// @type Color
+$light-medium-grey: rgba(165, 164, 164, 0.3) !default;
+
+/// light grey opacity 0.2
+/// @type Color
+$light-ligth-grey: rgba(165, 164, 164, 0.2) !default;
+
+/// degrade-angulare-color for the button
+/// @type Color
+$degrade-angulare-color: linear-gradient(to bottom right, $secondary-color,$primary-color);
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'https://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

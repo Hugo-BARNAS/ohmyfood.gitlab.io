@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ohmyfood|Accueil</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/561a94a222.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary" />
 
@@ -18,120 +25,186 @@
   <body>
     <!-- header -->
     <header>
-      <img src="" alt="logo" />
-      <div>
-        <img src="" alt="" />
-        <p></p>
+      <p class="title">ohmyfood</p>
+      <div class="localisation">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="city">Paris, Belleville</p>
       </div>
     </header>
     <!-- main -->
     <main>
-      <div>
+      <div class="slogan-home">
         <h1>Réservez le menu qui vous convient</h1>
-        <p>
+        <p class="slogan-text">
           Découvrez des restaurants d'exceptions, sélectionnez par nos soins
         </p>
-        <button></button>
+        <input type="button" value="Explorez nos restaurants" />
+        <!-- <button>Explorez nos restaurants</button> -->
       </div>
+      <div class="container">
+        <!-- article 1 Fonctionnement -->
 
-      <!-- article 1 Fonctionnement -->
+        <article id="working">
+          <div>
+            <h2>Fonctionnement</h2>
+          </div>
 
-      <article id="working">
-        <div>
-          <h2>Fonctionnement</h2>
-        </div>
+          <!-- section 1 choisir son restaurant -->
 
-        <!-- section 1 choisir son restaurant -->
+          <section class="method-to-choose-restaurant">
+            <p class="number-cercled">1</p>
+            <div class="card-method-to-choose-restaurant">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <p class="text-card-method-to-choose-restaurant">
+                Choisissez un restaurant
+              </p>
+            </div>
+          </section>
 
-        <section class="choose-restaurant">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <p>Choisissez un restaurant</p>
-        </section>
+          <!-- section 2 faire son menu -->
 
-        <!-- section 2 faire son menu -->
+          <section class="method-to-choose-restaurant">
+            <p class="number-cercled">2</p>
+            <div class="card-method-to-choose-restaurant">
+              <i class="fa-solid fa-list"></i>
+              <p class="text-card-method-to-choose-restaurant">
+                Composez votre menu
+              </p>
+            </div>
+          </section>
 
-        <section class="build-your-menu">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <p>Choisissez un restaurant</p>
-        </section>
-
-        <!-- section 3 manger au restaurant -->
-        <section class="eat-to-restaurant">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <p>Choisissez un restaurant</p>
-        </section>
-      </article>
-
+          <!-- section 3 manger au restaurant -->
+          <section class="method-to-choose-restaurant">
+            <p class="number-cercled">3</p>
+            <div class="card-method-to-choose-restaurant">
+              <i class="fa-solid fa-store"></i>
+              <p class="text-card-method-to-choose-restaurant">
+                Dégustez au restaurant
+              </p>
+            </div>
+          </section>
+        </article>
+      </div>
       <!-- article 2 list des restaurants -->
 
       <article id="list-of-restaurant">
+        <div class="container">
         <h2>Restaurants</h2>
 
         <!-- section 1 restaurant 1 -->
 
-        <section class="restaurants">
-          <img src="" alt="" />
-          <a href="">
+        <section class="card-restaurant">
+          <div>
+            <p class="new-card-restaurant">Nouveauté</p> 
+          <img
+            class="img-card-restaurant"
+            src="./images/restaurants/palette-gout.jpg"
+            alt=""
+          />
+          </div>
+          <div class="text-card-restaurant">
+            <div>
+            <a href="">
             <h3>La palette du goût</h3>
           </a>
           <a href="la-palette-du-gout.html">
-            <address>Ménilmontant</address>
+            <p class="address-card-restaurant">Ménilmontant</address>
           </a>
-          <img src="" alt="" />
+            </div>
+            <div class="heart-card-restaurant">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
         </section>
 
         <!-- section 2 restaurant 2 -->
 
-        <section class="restaurants">
-          <img src="" alt="" />
-          <a href="la-note-enchantee.html">
-            <h3>La note enchantée</h3>
+        <section class="card-restaurant">
+          <div>
+            <p class="new-card-restaurant">Nouveauté</p> 
+          <img
+            class="img-card-restaurant"
+            src="./images/restaurants/palette-gout.jpg"
+            alt=""
+          />
+          </div>
+          <div class="text-card-restaurant">
+            <div>
+            <a href="">
+            <h3>La palette du goût</h3>
           </a>
-          <a href=""><address>Charonne</address></a>
-          <img src="" alt="" />
+          <a href="la-palette-du-gout.html">
+            <p class="address-card-restaurant">Ménilmontant</address>
+          </a>
+            </div>
+            <div class="heart-card-restaurant">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
         </section>
 
         <!-- section 3 restaurant 3 -->
 
-        <section class="restaurants">
-          <p>nouveauté</p>
-          <img src="" alt="" />
-          <a href="./menu-a-la-française.html">
-            <h3>A la Française</h3>
+        <section class="card-restaurant">
+          <div>
+            <p class="new-card-restaurant">Nouveauté</p> 
+          <img
+            class="img-card-restaurant"
+            src="./images/restaurants/palette-gout.jpg"
+            alt=""
+          />
+          </div>
+          <div class="text-card-restaurant">
+            <div>
+            <a href="">
+            <h3>La palette du goût</h3>
           </a>
-          <a href=""><address>Cité Rouge</address></a>
-          <img src="" alt="" />
+          <a href="la-palette-du-gout.html">
+            <p class="address-card-restaurant">Ménilmontant</address>
+          </a>
+            </div>
+            <div class="heart-card-restaurant">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
         </section>
 
         <!-- section 4 restaurant 4 -->
 
-        <section class="restaurants">
-          <p>nouveauté</p>
-          <img src="" alt="" />
-          <a href="le-delice-des-sens.html">
-            <h3>Le délice des sens</h3>
+        <section class="card-restaurant">
+          <div>
+            <p class="new-card-restaurant">Nouveauté</p> 
+          <img
+            class="img-card-restaurant"
+            src="./images/restaurants/palette-gout.jpg"
+            alt=""
+          />
+          </div>
+          <div class="text-card-restaurant">
+            <div>
+            <a href="">
+            <h3>La palette du goût</h3>
           </a>
-          <a href=""><address>Folie Méricourt</address></a>
-          <img src="" alt="" />
+          <a href="la-palette-du-gout.html">
+            <p class="address-card-restaurant">Ménilmontant</address>
+          </a>
+            </div>
+            <div class="heart-card-restaurant">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
         </section>
       </article>
+     </div> 
     </main>
 
     <!-- footer -->
     <footer>
-      <img src="" alt="" />
+      <div class="container">
+      <p class="title title__white">ohmyfood</p>
       <div>
         <a href="">
-          <img src="" alt="" />
-          <p>Proposer un restaurant</p>
-        </a>
-      </div>
-      <div>
-        <a href="">
-          <img src="" alt="" />
+          <i class="fa-solid fa-utensils"></i>
           <p>Proposer un restaurant</p>
         </a>
       </div>
@@ -140,6 +213,7 @@
       </div>
       <div>
         <a href="">Contact</a>
+      </div>
       </div>
     </footer>
   </body>
