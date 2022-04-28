@@ -1,5 +1,61 @@
-.card-restaurant{
+.card-restaurant {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.card-restaurant>div {
+    position: relative;
+}
+
+.img-card-restaurant {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.text-card-restaurant {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.address-card-restaurant {
+    font-size: 15px;
+    margin: 0.2rem 0rem;
+}
+
+.new-card-restaurant {
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    background-color: $tertiary-color;
+    padding: 7px;
+    margin-right: 1rem;
+    font-size: 15px;
+    color: $tertiary-color-dark;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.fa-regular {
+    transition: color 250ms;
+
+    &:hover {
+        color: $primary-color;
+
+        &::after {
+            content: "";
+
+            .fa-solid {
+                color: $primary-color
+            }
+        }
+
+    }
+
 }

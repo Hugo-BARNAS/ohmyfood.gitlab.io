@@ -10,6 +10,13 @@
     border-bottom: 2px solid $light-grey;
     box-shadow: 0px 3px 3px 0px $light-grey;
     padding: 1rem 0;
+    &__white{
+        color: white;
+        text-align: left;
+        font-size: 1.5rem;
+        border-bottom:none;
+        box-shadow: none;
+    }
 }
 
 .localisation {
@@ -46,11 +53,30 @@
 
 // article fonctionnement
 
+
+#working{
+    margin-bottom: 4rem;
+}
+
 h2{
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 2rem;
 }
+
+h3{
+    margin: 0px;
+    font-size: 18px;
+}
+
+
+// article restaurant
+
+#list-of-restaurant{
+    background-color: $light-ligth-grey;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
 
 
 
