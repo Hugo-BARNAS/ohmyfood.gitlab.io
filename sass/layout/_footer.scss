@@ -2,11 +2,22 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 
-
-footer{
-    background-color: rgb(61, 58, 58);
+footer {
+  background-color: rgb(61, 58, 58);
+  padding-bottom: 2rem;
 }
 
-footer img,  a{
-    color: white;
+footer img,
+.text-footer {
+  color: white;
+  font-size: 15px;
+}
+
+a i {
+  padding-right: 0.5rem;
+}
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
