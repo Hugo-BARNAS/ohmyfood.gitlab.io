@@ -2,54 +2,6 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.title {
-  font-family: "Shrikhand", cursive;
-  text-align: center;
-  font-size: 2.5rem;
-  margin: 0;
-  border-bottom: 2px solid $light-grey;
-  box-shadow: 0px 3px 3px 0px $light-grey;
-  padding: 1rem 0;
-  &__white {
-    color: white;
-    text-align: left;
-    font-size: 1.5rem;
-    border-bottom: none;
-    box-shadow: none;
-  }
-}
-
-.localisation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: $light-medium-grey;
-}
-
-.city {
-  padding-left: 1rem;
-  font-weight: 500;
-}
-
-.slogan-home {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  background-color: $light-ligth-grey;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-}
-
-.slogan-text {
-  margin: 0rem 0rem 2rem 0rem;
-  font-size: 17px;
-  color: $light-grey;
-  width: 100%;
-}
-
 // article fonctionnement
 
 #working {
