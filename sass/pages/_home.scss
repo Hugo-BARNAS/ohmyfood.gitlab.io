@@ -2,7 +2,47 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-// article fonctionnement
+// section slogon
+
+.localisation {
+  justify-content: center;
+  padding: 1.5rem 0rem;
+  box-shadow: inset 0em 5px 0.2em $light-medium-grey;
+  display: flex;
+  background-color: $light-medium-grey;
+}
+
+.city-name {
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+::placeholder {
+  background-color: $light-medium-grey;
+  padding-left: 1rem;
+}
+
+.slogan-home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-ligth-grey;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.slogan-text {
+  margin: 0rem 0rem 2rem 0rem;
+  font-size: 17px;
+  color: $light-grey;
+  width: 100%;
+}
+
+// section fonctionnement
 
 #working {
   margin-bottom: 4rem;
@@ -19,9 +59,14 @@ h3 {
   font-size: 18px;
 }
 
-// article restaurant
+// section restaurant
 
 #list-of-restaurant {
   background-color: $light-ligth-grey;
   padding: 3rem 0rem 3rem 0rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
 }

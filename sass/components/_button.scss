@@ -2,14 +2,14 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
-@import '../abstracts/variables';
+@import "../abstracts/variables";
 
-input {
-    border: none;
-    border-radius: 35px;
-    background: $degrade-angulare-color;
-    padding:1.25rem 2rem;
-    color: white;
-    font-size: 800;
-    margin-bottom: 2rem;
+.btn {
+  border: none;
+  border-radius: 35px;
+  background: $degrade-angulare-color;
+  padding: 1.25rem 2rem;
+  color: white;
+  font-size: 800;
+  margin-bottom: 2rem;
 }

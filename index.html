@@ -24,77 +24,95 @@
 <body>
   <!-- header -->
   <header>
-    <p class="title">ohmyfood</p>
-    <div class="localisation">
-      <i class="fa-solid fa-location-dot"></i>
-      <p class="city">Paris, Belleville</p>
-    </div>
+    <!-- mettre l'image pour le logo, met le lien qui ramène à la page d'accueil -->
+    <img src="./images/logo/ohmyfood@2x.svg" class="logo" alt="">
+    <!-- Il faut sortir la localisation du header et uiliser un formulaire -->
   </header>
   <!-- main -->
   <main>
-    <div class="slogan-home">
-      <h1>Réservez le menu qui vous convient</h1>
-      <p class="slogan-text">
-        Découvrez des restaurants d'exceptions, sélectionnez par nos soins
-      </p>
-      <a href="#list-of-restaurant">
-        <input type="button" value="Explorez nos restaurants" />
-        <!-- <button>Explorez nos restaurants</button> -->
-      </a>
-    </div>
-    <div class="container">
-      <!-- article 1 Fonctionnement -->
+    <!-- 
+      Il faut diviser la page d'accueil en 3 section :
+        - section 1 : du fomulaire jusqu'à "explorer nos restaurents"
+        - section 2 : Fonctionnement
+        - Section 3 : Les restaurents
+    -->
 
-      <article id="working">
-        <div>
-          <h2>Fonctionnement</h2>
-        </div>
 
-        <!-- section 1 choisir son restaurant -->
+    <!-- section 1 Formulaire + explorez nos restaurants -->
+    <section id="exploration-restaurant">
+      <form class="localisation">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" class="city-name" placeholder="Paris, Belleville">
+        </input>
+      </form>
+      <div class=" slogan-home">
+        <h1>Réservez le menu qui vous convient</h1>
+        <p class="slogan-text">
+          Découvrez des restaurants d'exceptions, sélectionnez par nos soins
+        </p>
+        <a href="#list-of-restaurant">
+          <!--ici il faut utiliser uniquement un lien. Il ne faut pas mettre de input ni de button. C'est le css qui donne le style du bouton-->
+          <input type="button" class="btn" value="Explorez nos restaurants" />
+          <!-- <button>Explorez nos restaurants</button> -->
+        </a>
+      </div>
+    </section>
 
-        <section class="method-to-choose-restaurant">
-          <p class="number-cercled">1</p>
-          <div class="card-method-to-choose-restaurant">
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <p class="text-card-method-to-choose-restaurant">
-              Choisissez un restaurant
-            </p>
-          </div>
-        </section>
+    <!-- section 2 - Fonctionnement -->
+    <section id="working">
+      <h2 class="container">Fonctionnement</h2>
+      <!--il faut utiliser une liste à la place des sections
+        Regarde du coté de ::before et ::after en css pour l'ajout des éléments tel que les numéro-->
+      <ul>
+        <li>
+          <article class="method-to-choose-restaurant">
+            <p class="number-cercled">1</p>
+            <div class="card-method-to-choose-restaurant">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <p class="text-card-method-to-choose-restaurant">
+                Choisissez un restaurant
+              </p>
+            </div>
+          </article>
+        </li>
+        <li>
+          <!-- article 2 faire son menu -->
+          <article class="method-to-choose-restaurant">
+            <p class="number-cercled">2</p>
+            <div class="card-method-to-choose-restaurant">
+              <i class="fa-solid fa-list"></i>
+              <p class="text-card-method-to-choose-restaurant">
+                Composez votre menu
+              </p>
+            </div>
+          </article>
+        </li>
+        <li>
+          <!-- article 3 manger au restaurant -->
+          <article class="method-to-choose-restaurant">
+            <p class="number-cercled">3</p>
+            <div class="card-method-to-choose-restaurant">
+              <i class="fa-solid fa-store"></i>
+              <p class="text-card-method-to-choose-restaurant">
+                Dégustez au restaurant
+              </p>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
 
-        <!-- section 2 faire son menu -->
-
-        <section class="method-to-choose-restaurant">
-          <p class="number-cercled">2</p>
-          <div class="card-method-to-choose-restaurant">
-            <i class="fa-solid fa-list"></i>
-            <p class="text-card-method-to-choose-restaurant">
-              Composez votre menu
-            </p>
-          </div>
-        </section>
-
-        <!-- section 3 manger au restaurant -->
-        <section class="method-to-choose-restaurant">
-          <p class="number-cercled">3</p>
-          <div class="card-method-to-choose-restaurant">
-            <i class="fa-solid fa-store"></i>
-            <p class="text-card-method-to-choose-restaurant">
-              Dégustez au restaurant
-            </p>
-          </div>
-        </section>
-      </article>
-    </div>
-    <!-- article 2 list des restaurants -->
-
-    <article id="list-of-restaurant">
+    <!-- section 2 list des restaurants -->
+    <section id="list-of-restaurant">
       <div class="container">
         <h2>Restaurants</h2>
 
-        <!-- section 1 restaurant 1 -->
+        <!-- section 1 restaurant 1 
+        
+        Pour les restaurents tu dois avoir une section avec un h2 puis 4 vignettes qui sont des articles entourés de liens
+        -->
 
-        <section class="card-restaurant">
+        <article class="card-restaurant">
           <div>
             <p class="new-card-restaurant">Nouveauté</p>
             <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
@@ -112,11 +130,11 @@
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
-        </section>
+        </article>
 
         <!-- section 2 restaurant 2 -->
 
-        <section class="card-restaurant">
+        <article class="card-restaurant">
           <div>
             <p class="new-card-restaurant">Nouveauté</p>
             <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
@@ -134,11 +152,11 @@
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
-        </section>
+        </article>
 
-        <!-- section 3 restaurant 3 -->
+        <!-- article 3 restaurant 3 -->
 
-        <section class="card-restaurant">
+        <article class="card-restaurant">
           <div>
             <p class="new-card-restaurant">Nouveauté</p>
             <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
@@ -156,11 +174,11 @@
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
-        </section>
+        </article>
 
-        <!-- section 4 restaurant 4 -->
+        <!-- article 4 restaurant 4 -->
 
-        <section class="card-restaurant">
+        <article class="card-restaurant">
           <div>
             <p class="new-card-restaurant">Nouveauté</p>
             <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
@@ -178,37 +196,36 @@
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
-        </section>
-    </article>
-    </div>
+        </article>
+    </section>
   </main>
 
   <!-- footer -->
   <footer>
     <div class="container container-footer">
       <p class="title title__white">ohmyfood</p>
-      <div>
+      <article>
         <a href="#" class="text-footer">
           <i class="fa-solid fa-utensils"></i>
           Proposer un restaurant
         </a>
-      </div>
-      <div>
+      </article>
+      <article>
         <a href="" class="text-footer">
           <i class="fa-solid fa-handshake-angle"></i>
           Devenir partenaire
         </a>
-      </div>
-      <div>
+      </article>
+      <article>
         <a href="" class="text-footer">
           Mentions légales
         </a>
-      </div>
-      <div>
+      </article>
+      <article>
         <a href="" class="text-footer">
           Contact
         </a>
-      </div>
+      </article>
     </div>
     </div>
   </footer>
