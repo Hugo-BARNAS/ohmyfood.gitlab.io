@@ -45,15 +45,13 @@
         <input type="text" class="city-name" placeholder="Paris, Belleville">
         </input>
       </form>
-      <div class=" slogan-home">
+      <div class="slogan-home">
         <h1>Réservez le menu qui vous convient</h1>
         <p class="slogan-text">
           Découvrez des restaurants d'exceptions, sélectionnez par nos soins
         </p>
-        <a href="#list-of-restaurant">
-          <!--ici il faut utiliser uniquement un lien. Il ne faut pas mettre de input ni de button. C'est le css qui donne le style du bouton-->
-          <input type="button" class="btn" value="Explorez nos restaurants" />
-          <!-- <button>Explorez nos restaurants</button> -->
+        <a href="#list-of-restaurant" class="btn">
+          Explorez nos restaurants
         </a>
       </div>
     </section>
@@ -65,47 +63,54 @@
         Regarde du coté de ::before et ::after en css pour l'ajout des éléments tel que les numéro-->
       <ul>
         <li>
-          <article class="method-to-choose-restaurant">
-            <p class="number-cercled">1</p>
-            <div class="card-method-to-choose-restaurant">
-              <i class="fa-solid fa-mobile-screen-button"></i>
-              <p class="text-card-method-to-choose-restaurant">
-                Choisissez un restaurant
-              </p>
-            </div>
-          </article>
+          <a href="#">
+            <article class="method-to-choose-restaurant">
+              <p class="number-cercled">1</p>
+              <div class="card-method-to-choose-restaurant">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p class="text-card-method-to-choose-restaurant">
+                  Choisissez un restaurant
+                </p>
+              </div>
+            </article>
+          </a>
         </li>
         <li>
           <!-- article 2 faire son menu -->
-          <article class="method-to-choose-restaurant">
-            <p class="number-cercled">2</p>
-            <div class="card-method-to-choose-restaurant">
-              <i class="fa-solid fa-list"></i>
-              <p class="text-card-method-to-choose-restaurant">
-                Composez votre menu
-              </p>
-            </div>
-          </article>
+          <a href="#">
+            <article class="method-to-choose-restaurant">
+              <p class="number-cercled">2</p>
+              <div class="card-method-to-choose-restaurant">
+                <i class="fa-solid fa-list"></i>
+                <p class="text-card-method-to-choose-restaurant">
+                  Composez votre menu
+                </p>
+              </div>
+            </article>
+          </a>
         </li>
         <li>
           <!-- article 3 manger au restaurant -->
-          <article class="method-to-choose-restaurant">
-            <p class="number-cercled">3</p>
-            <div class="card-method-to-choose-restaurant">
-              <i class="fa-solid fa-store"></i>
-              <p class="text-card-method-to-choose-restaurant">
-                Dégustez au restaurant
-              </p>
-            </div>
-          </article>
+          <a href="#">
+            <article class="method-to-choose-restaurant">
+              <p class="number-cercled">3</p>
+              <div class="card-method-to-choose-restaurant">
+                <i class="fa-solid fa-store"></i>
+                <p class="text-card-method-to-choose-restaurant">
+                  Dégustez au restaurant
+                </p>
+              </div>
+            </article>
+          </a>
         </li>
       </ul>
     </section>
 
     <!-- section 2 list des restaurants -->
     <section id="list-of-restaurant">
-      <div class="container">
-        <h2>Restaurants</h2>
+      <h2 class="container">Restaurants</h2>
+      <div class="container container-list-of-restaurant-tablet container-list-of-restaurant-desktop">
+
 
         <!-- section 1 restaurant 1 
         
@@ -113,89 +118,90 @@
         -->
 
         <article class="card-restaurant">
-          <div>
-            <p class="new-card-restaurant">Nouveauté</p>
-            <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
-          </div>
-          <div class="text-card-restaurant">
-            <div>
-              <a href="">
-                <h3>La palette du goût</h3>
-              </a>
-              <a href="la-palette-du-gout.html">
-                <p class="address-card-restaurant">Ménilmontant</address>
-              </a>
+          <a href="#">
+            <div class="top-img-card-restaurant">
+              <p class="new-card-restaurant">Nouveauté</p>
+              <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
             </div>
-            <div class="heart-card-restaurant">
+            <div class="content-card-restaurant">
+              <div class="text-card-restaurant">
+                <a href="#">
+                  <h3>La palette du goût</h3>
+                </a>
+                <a href="la-palette-du-gout.html">
+                  <p class="address-card-restaurant">Ménilmontant</address>
+                </a>
+              </div>
               <i class="fa-regular fa-heart"></i>
             </div>
-          </div>
+          </a>
         </article>
 
         <!-- section 2 restaurant 2 -->
 
         <article class="card-restaurant">
-          <div>
-            <p class="new-card-restaurant">Nouveauté</p>
-            <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
-          </div>
-          <div class="text-card-restaurant">
-            <div>
-              <a href="">
-                <h3>La palette du goût</h3>
-              </a>
-              <a href="la-palette-du-gout.html">
-                <p class="address-card-restaurant">Ménilmontant</address>
-              </a>
+          <a href="#">
+            <div class="top-img-card-restaurant">
+              <p class="new-card-restaurant">Nouveauté</p>
+              <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
             </div>
-            <div class="heart-card-restaurant">
+            <div class="content-card-restaurant">
+              <div class="text-card-restaurant">
+                <a href="">
+                  <h3>La palette du goût</h3>
+                </a>
+                <a href="la-palette-du-gout.html">
+                  <p class="address-card-restaurant">Ménilmontant</address>
+                </a>
+              </div>
               <i class="fa-regular fa-heart"></i>
             </div>
-          </div>
+          </a>
         </article>
 
         <!-- article 3 restaurant 3 -->
 
         <article class="card-restaurant">
-          <div>
-            <p class="new-card-restaurant">Nouveauté</p>
-            <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
-          </div>
-          <div class="text-card-restaurant">
-            <div>
-              <a href="">
-                <h3>La palette du goût</h3>
-              </a>
-              <a href="la-palette-du-gout.html">
-                <p class="address-card-restaurant">Ménilmontant</address>
-              </a>
+          <a href="">
+            <div class="top-img-card-restaurant">
+              <p class="new-card-restaurant">Nouveauté</p>
+              <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
             </div>
-            <div class="heart-card-restaurant">
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-        </article>
+            <div class="content-card-restaurant">
+              <div class="text-card-restaurant">
+                <a href="">
+                  <h3>La palette du goût</h3>
+                </a>
+                <a href="la-palette-du-gout.html">
+                  <p class="address-card-restaurant">Ménilmontant</address>
+                </a>
+              </div>
 
+              <i class="fa-regular fa-heart"></i>
+
+            </div>
+        </article>
+        </a>
         <!-- article 4 restaurant 4 -->
 
         <article class="card-restaurant">
-          <div>
-            <p class="new-card-restaurant">Nouveauté</p>
-            <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
-          </div>
-          <div class="text-card-restaurant">
-            <div>
-              <a href="">
-                <h3>La palette du goût</h3>
-              </a>
-              <a href="la-palette-du-gout.html">
-                <p class="address-card-restaurant">Ménilmontant</address>
-              </a>
+          <a href="">
+            <div class="top-img-card-restaurant">
+              <p class="new-card-restaurant">Nouveauté</p>
+              <img class="img-card-restaurant" src="./images/restaurants/palette-gout.jpg" alt="" />
             </div>
-            <div class="heart-card-restaurant">
+            <div class="content-card-restaurant">
+              <div class="text-card-restaurant">
+                <a href="">
+                  <h3>La palette du goût</h3>
+                </a>
+                <a href="la-palette-du-gout.html">
+                  <p class="address-card-restaurant">Ménilmontant</address>
+                </a>
+              </div>
               <i class="fa-regular fa-heart"></i>
             </div>
-          </div>
+          </a>
         </article>
     </section>
   </main>
@@ -203,7 +209,9 @@
   <!-- footer -->
   <footer>
     <div class="container container-footer">
-      <p class="title title__white">ohmyfood</p>
+      <a href="#">
+        <img src="./images/logo/ohmyfood@2x.svg" class="logo-footer" alt="">
+      </a>
       <article>
         <a href="#" class="text-footer">
           <i class="fa-solid fa-utensils"></i>
@@ -222,7 +230,7 @@
         </a>
       </article>
       <article>
-        <a href="" class="text-footer">
+        <a href="mailto:contact@ohmyfood.com" class="text-footer">
           Contact
         </a>
       </article>

@@ -1,61 +1,72 @@
 .card-restaurant {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    background-color: white;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
 }
 
-.card-restaurant>div {
-    position: relative;
+.card-restaurant > div {
+  position: relative;
 }
 
 .img-card-restaurant {
-    border-radius: 10px 10px 0px 0px;
-    width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+.content-card-restaurant {
+  display: flex;
+  align-items: center;
 }
 
 .text-card-restaurant {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    padding: 10px;
-
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .address-card-restaurant {
-    font-size: 15px;
-    margin: 0.2rem 0rem;
+  font-size: 15px;
+  margin: 0.2rem 0rem;
+}
+
+.top-img-card-restaurant {
+  position: relative;
 }
 
 .new-card-restaurant {
-    border-radius: 2px;
-    position: absolute;
-    right: 0;
-    background-color: $tertiary-color;
-    padding: 7px;
-    margin-right: 1rem;
-    font-size: 15px;
-    color: $tertiary-color-dark;
-    font-size: 15px;
-    font-weight: 600;
+  border-radius: 2px;
+  position: absolute;
+  right: 0.75rem;
+  background-color: $tertiary-color;
+  padding: 7px;
+  margin-right: 1rem;
+  font-size: 15px;
+  color: $tertiary-color-dark;
+  font-weight: 600;
 }
 
-
 .fa-regular {
-    transition: color 250ms;
+  position: absolute;
+  right: 2rem;
+  transition: color 250ms;
 
-    &:hover {
+  &:hover {
+    color: $primary-color;
+
+    &::after {
+      content: "";
+
+      .fa-solid {
         color: $primary-color;
-
-        &::after {
-            content: "";
-
-            .fa-solid {
-                color: $primary-color
-            }
-        }
-
+      }
     }
-
+  }
 }

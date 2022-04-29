@@ -38,13 +38,14 @@
 .slogan-text {
   margin: 0rem 0rem 2rem 0rem;
   font-size: 17px;
-  color: $light-grey;
+  color: grey;
   width: 100%;
 }
 
 // section fonctionnement
 
 #working {
+  padding: 0 1rem;
   margin-bottom: 4rem;
 }
 
@@ -59,6 +60,12 @@ h3 {
   font-size: 18px;
 }
 
+.fa-mobile-screen-button,
+.fa-list,
+.fa-store {
+  color: rgb(141, 139, 139);
+}
+
 // section restaurant
 
 #list-of-restaurant {
@@ -69,4 +76,77 @@ h3 {
 ul {
   list-style: none;
   padding: 0px;
+}
+
+// Format tablet
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  // section restaurant
+
+  .container-list-of-restaurant-tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+//format desktop
+@media screen and (min-width: 768px) {
+  // section fonctionnement
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .card-method-to-choose-restaurant {
+    max-width: 400px;
+  }
+
+  // section restaurant
+
+  .container-list-of-restaurant-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .card-restaurant {
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .content-card-restaurant {
+    align-items: flex-end;
+  }
+
+  .fa-heart {
+    margin-bottom: 1rem;
+  }
+
+  //footer
+  .logo-footer {
+    transform: scale(3);
+    margin: 0px 0px 0px 20px;
+  }
+
+  footer {
+    padding-top: 3rem;
+  }
+  .container-footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

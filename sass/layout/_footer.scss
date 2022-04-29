@@ -4,7 +4,7 @@
 
 footer {
   background-color: rgb(61, 58, 58);
-  padding-bottom: 2rem;
+  padding: 1rem 0 2rem 0;
 }
 
 footer img,
@@ -20,4 +20,10 @@ a i {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+}
+
+.logo-footer {
+  margin-bottom: 1rem;
+  width: 30%;
+  filter: brightness(0) invert(1);
 }
