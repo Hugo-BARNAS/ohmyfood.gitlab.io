@@ -2,8 +2,18 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 // header
+.logo {
+  width: 100%;
+  transform: scale(0.5);
+  margin: 0px auto;
+}
 
 .header-restaurant {
   display: flex;
   align-content: center;
+  justify-content: center;
+}
+
+.header-restaurant a {
+  padding: 1rem 0rem 0rem 1rem;
 }

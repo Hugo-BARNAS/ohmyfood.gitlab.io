@@ -1,0 +1,17 @@
+.fa-regular {
+  position: absolute;
+  right: 2rem;
+  transition: color 250ms;
+
+  &:hover {
+    color: $primary-color;
+
+    &::after {
+      content: "";
+
+      .fa-solid {
+        color: $primary-color;
+      }
+    }
+  }
+}
