@@ -5,15 +5,19 @@
 .logo {
   width: 100%;
   transform: scale(0.5);
-  margin: 0px auto;
 }
 
 .header-restaurant {
+  padding: 15px;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
 .header-restaurant a {
-  padding: 1rem 0rem 0rem 1rem;
+  color: black;
+}
+
+.arrow-left {
+  padding-top: 3px;
 }

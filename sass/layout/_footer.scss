@@ -23,14 +23,30 @@ a i {
 }
 
 .logo-footer {
-  margin-bottom: 1rem;
+  transform: scale(1.25);
+  margin: 0 0 0.25rem 0.5rem;
   width: 30%;
   filter: brightness(0) invert(1);
 }
 
 // page restaurant
 
-.footer-restaurant {
-  position: relative;
-  top: 11rem;
+//media queries
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    transform: scale(2.5);
+    margin: 0 0 0 2.5rem;
+  }
+
+  .footer-restaurant {
+    top: 30rem;
+  }
+  footer {
+    padding-top: 3rem;
+  }
+  .container-footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
