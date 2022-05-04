@@ -683,11 +683,18 @@ ul {
   .fa-heart {
     margin-bottom: 1rem; } }
 .img-restaurant {
-  background-image: url("/images/restaurants/a-la-francaise.jpg");
   background-size: cover;
   width: 100%;
   height: 250px;
   margin-bottom: -3rem; }
+  .img-restaurant--restaurant-1 {
+    background-image: url("/images/restaurants/a-la-francaise.jpg"); }
+  .img-restaurant--restaurant-2 {
+    background-image: url("/images/restaurants/delice-des-sens.jpg"); }
+  .img-restaurant--restaurant-3 {
+    background-image: url("/images/restaurants/note-enchantee.jpg"); }
+  .img-restaurant--restaurant-4 {
+    background-image: url("/images/restaurants/palette-gout.jpg"); }
 
 .menu-restaurant {
   background-color: #f0f0f0;
