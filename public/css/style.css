@@ -353,7 +353,7 @@ body {
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: 1180px;
+  max-width: 1000px;
   /* 1 */
   margin-left: auto;
   /* 2 */
@@ -393,21 +393,25 @@ body {
   position: absolute;
   width: 1px; }
 
-.logo {
-  width: 100%;
-  transform: scale(0.5); }
+.container-header {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px; }
 
 .header-restaurant {
   padding: 15px;
-  display: flex;
-  align-content: center;
-  justify-content: center; }
+  display: flex; }
+
+.logo-header {
+  flex: 20%;
+  text-align: center; }
 
 .header-restaurant a {
   color: black; }
 
 .arrow-left {
-  padding-top: 3px; }
+  padding-top: 3px;
+  width: 30px; }
 
 footer {
   background-color: #3d3a3a;
@@ -432,6 +436,13 @@ a i {
   width: 30%;
   filter: brightness(0) invert(1); }
 
+.fa-utensils {
+  padding-right: 5px; }
+
+.fa-handshake-angle {
+  transform: scale(0.7);
+  padding: 0px; }
+
 @media screen and (min-width: 768px) {
   .logo-footer {
     transform: scale(2.5);
@@ -450,7 +461,7 @@ a i {
 .btn {
   border: none;
   border-radius: 35px;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background: linear-gradient(to bottom right, #ff79da, #9356dc);
   padding: 1rem 1.5rem;
   color: white;
   font-weight: 500;
@@ -490,7 +501,7 @@ a i {
   position: relative;
   border-radius: 50px;
   padding: 2px 8px;
-  background-color: #9356DC;
+  background-color: #9356dc;
   font-size: 15px;
   color: white;
   font-weight: 600;
@@ -525,6 +536,7 @@ a i {
   align-items: center; }
 
 .text-card-restaurant {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 10px; }
@@ -540,7 +552,7 @@ a i {
   border-radius: 2px;
   position: absolute;
   right: 0.75rem;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   padding: 7px;
   margin-right: 1rem;
   font-size: 15px;
@@ -551,22 +563,27 @@ a i {
   right: 2rem;
   transition: color 250ms; }
   .fa-regular:hover {
-    color: #9356DC; }
+    color: #9356dc; }
     .fa-regular:hover::after {
       content: ""; }
       .fa-regular:hover::after .fa-solid {
-        color: #9356DC; }
+        color: #9356dc; }
 
 .fa-regular {
   margin: 25px 10px 0px 0px;
   right: 2rem;
   transition: color 250ms; }
   .fa-regular:hover {
-    color: #9356DC; }
+    color: #9356dc; }
     .fa-regular:hover::after {
       content: ""; }
       .fa-regular:hover::after .fa-solid {
-        color: #9356DC; }
+        color: #9356dc; }
+
+.fa-heart-home {
+  position: absolute;
+  bottom: 30px;
+  right: 25px; }
 
 .localisation {
   justify-content: center;
@@ -673,7 +690,7 @@ ul {
   margin-bottom: -3rem; }
 
 .menu-restaurant {
-  background-color: #c5c4c4;
+  background-color: #f0f0f0;
   padding: 1rem;
   border-radius: 50px 50px 0px 0px;
   width: 100%; }
@@ -716,7 +733,7 @@ article div:nth-child(4) {
   font-size: 15px; }
 
 body {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
