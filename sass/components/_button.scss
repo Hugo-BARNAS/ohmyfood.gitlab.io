@@ -5,6 +5,8 @@
 @import "../abstracts/variables";
 
 .btn {
+  position: relative;
+  z-index: 1;
   border: none;
   border-radius: 35px;
   background: $degrade-angulare-color;
@@ -12,10 +14,17 @@
   color: white;
   font-weight: 500;
   margin-bottom: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   &__restaurant {
     text-align: center;
     font-size: 17px;
     padding: 0.75rem 2rem 0.75rem 2rem;
+  }
+  &:hover {
+    color: white;
+    opacity: 0.85;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: opacity 500ms, box-shadow 500ms, color 500ms;
   }
 }
 
