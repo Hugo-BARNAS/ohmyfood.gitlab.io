@@ -44,11 +44,6 @@
 
 // section fonctionnement
 
-#working {
-  padding: 0 1rem;
-  margin-bottom: 4rem;
-}
-
 h2 {
   font-size: 25px;
   font-weight: 700;
@@ -77,62 +72,4 @@ h3 {
 ul {
   list-style: none;
   padding: 0px;
-}
-
-// Format tablet
-
-@media screen and (min-width: 426px) and (max-width: 767px) {
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  // section restaurant
-
-  .container-list-of-restaurant-tablet {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-}
-
-//format desktop
-@media screen and (min-width: 768px) {
-  // section fonctionnement
-
-  ul {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-  }
-  .card-method-to-choose-restaurant {
-    max-width: 400px;
-  }
-
-  // section restaurant
-
-  .container-list-of-restaurant-desktop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1rem;
-  }
-
-  .card-restaurant {
-    flex: 1;
-    flex-wrap: wrap;
-  }
-
-  .content-card-restaurant {
-    align-items: flex-end;
-  }
-
-  .fa-heart {
-    margin-bottom: 1rem;
-  }
 }

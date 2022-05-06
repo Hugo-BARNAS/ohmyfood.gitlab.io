@@ -1,23 +1,26 @@
-.fa-regular {
-  margin: 25px 10px 0px 0px;
-  right: 2rem;
-  transition: color 250ms;
-
-  &:hover {
-    color: $primary-color;
-
-    &::after {
-      content: "";
-
-      .fa-solid {
-        color: $primary-color;
-      }
-    }
-  }
-}
-
 .fa-heart-home {
   position: absolute;
   bottom: 30px;
   right: 25px;
+  @media screen and (min-width: 768px) and (max-width: 930px) {
+    bottom: 15px;
+  }
+  @media screen and (min-width: 930px) {
+    bottom: 20px;
+  }
+}
+
+.fa-heart {
+  transition: color 250ms;
+
+  &:hover::before {
+    display: none;
+  }
+
+  &:hover::after {
+    content: "";
+    .fa-solid .fa-heart {
+      color: $primary-color;
+    }
+  }
 }

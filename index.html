@@ -47,7 +47,7 @@
         <input type="text" class="city-name" placeholder="Paris, Belleville">
         </input>
       </form>
-      <div class="slogan-home">
+      <article class="slogan-home">
         <h1>Réservez le menu qui vous convient</h1>
         <p class="slogan-text">
           Découvrez des restaurants d'exceptions, sélectionnez par nos soins
@@ -55,54 +55,34 @@
         <a href="#list-of-restaurant" class="btn">
           Explorez nos restaurants
         </a>
-      </div>
+      </article>
     </section>
 
     <!-- section 2 - Fonctionnement -->
     <section id="working">
-      <h2 class="container">Fonctionnement</h2>
+      <h2>Fonctionnement</h2>
       <!--il faut utiliser une liste à la place des sections
         Regarde du coté de ::before et ::after en css pour l'ajout des éléments tel que les numéro-->
       <ul>
         <li>
-          <a href="#">
-            <article class="method-to-choose-restaurant">
-              <p class="number-cercled">1</p>
-              <div class="card-method-to-choose-restaurant">
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <p class="text-card-method-to-choose-restaurant">
-                  Choisissez un restaurant
-                </p>
-              </div>
-            </article>
+          <a href="#" class="card-method-to-choose-restaurant text-card-method-to-choose-restaurant">
+            <p class="content-1 content-style"><i class="fa-solid fa-mobile-screen-button"></i>Choisissez
+              un restaurant
+            </p>
           </a>
         </li>
         <li>
-          <!-- article 2 faire son menu -->
-          <a href="#">
-            <article class="method-to-choose-restaurant">
-              <p class="number-cercled">2</p>
-              <div class="card-method-to-choose-restaurant">
-                <i class="fa-solid fa-list"></i>
-                <p class="text-card-method-to-choose-restaurant">
-                  Composez votre menu
-                </p>
-              </div>
-            </article>
+          <a href="#" class="card-method-to-choose-restaurant text-card-method-to-choose-restaurant">
+            <p class="content-2 content-style"><i class="fa-solid fa-mobile-screen-button"></i>Composez votre
+              menu
+            </p>
           </a>
         </li>
+        <!-- article 3 manger au restaurant -->
         <li>
-          <!-- article 3 manger au restaurant -->
-          <a href="#">
-            <article class="method-to-choose-restaurant">
-              <p class="number-cercled">3</p>
-              <div class="card-method-to-choose-restaurant">
-                <i class="fa-solid fa-store"></i>
-                <p class="text-card-method-to-choose-restaurant">
-                  Dégustez au restaurant
-                </p>
-              </div>
-            </article>
+          <a href="#" class="card-method-to-choose-restaurant text-card-method-to-choose-restaurant">
+            <p class="content-3 content-style"><i class="fa-solid fa-mobile-screen-button"></i>Dégustez au restaurant
+            </p>
           </a>
         </li>
       </ul>
@@ -211,28 +191,30 @@
       <a href="#">
         <img src="./images/logo/ohmyfood@2x.svg" class="logo-footer" alt="">
       </a>
-      <article>
-        <a href="#" class="text-footer">
-          <i class="fa-solid fa-utensils"></i>
-          Proposer un restaurant
-        </a>
-      </article>
-      <article>
-        <a href="#" class="text-footer">
-          <i class="fa-solid fa-handshake-angle"></i>
-          Devenir partenaire
-        </a>
-      </article>
-      <article>
-        <a href="#" class="text-footer">
-          Mentions légales
-        </a>
-      </article>
-      <article>
-        <a href="mailto:contact@ohmyfood.com" class="text-footer">
-          Contact
-        </a>
-      </article>
+
+      <ul>
+        <li><a href="#" class="text-footer">
+            <i class="fa-solid fa-utensils"></i>
+            Proposer un restaurant
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-footer">
+            <i class="fa-solid fa-handshake-angle"></i>
+            Devenir partenaire
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-footer">
+            Mentions légales
+          </a>
+        </li>
+        <li>
+          <a href="mailto:contact@ohmyfood.com" class="text-footer">
+            Contact
+          </a>
+        </li>
+      </ul>
     </div>
     </div>
   </footer>

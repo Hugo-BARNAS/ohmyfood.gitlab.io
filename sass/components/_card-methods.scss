@@ -1,7 +1,15 @@
 // section method to choose restaurant
 
-.method-to-choose-restaurant {
+#working {
+  padding: 0 1.25rem;
+  margin-bottom: 4rem;
+}
+
+#working a {
   position: relative;
+}
+
+.method-to-choose-restaurant {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
@@ -9,20 +17,54 @@
 
 .card-method-to-choose-restaurant {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 20px;
   width: 100%;
   background-color: $light-ligth-grey;
+  margin-bottom: 1rem;
 
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     background-color: $secondary-color-very-light;
   }
+}
+
+.fa-mobile-screen-button {
+  transform: scale(1.2);
+  margin: 0 10px;
+}
+
+.content-1::before {
+  content: "1";
+}
+
+.content-2::before {
+  content: "2";
+}
+
+.content-3::before {
+  content: "3";
+}
+
+.content-style::before {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  border-radius: 50px;
+  padding: 2px 8px;
+  background-color: $primary-color;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  left: -13px;
+  margin: 0px;
+  gap: 20px;
 }
 
 .number-cercled {
@@ -40,4 +82,60 @@
 .text-card-method-to-choose-restaurant {
   font-size: 15px;
   font-weight: 600;
+}
+
+// Format tablet
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  #working ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  // section restaurant
+
+  .container-list-of-restaurant-tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+//format desktop
+@media screen and (min-width: 768px) {
+  // section fonctionnement
+
+  #working ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .fa-mobile-screen-button {
+    transform: scale(1.2);
+    margin-right: 5px;
+  }
+
+  // section restaurant
+
+  .container-list-of-restaurant-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .card-restaurant {
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .content-card-restaurant {
+    align-items: flex-end;
+  }
 }
