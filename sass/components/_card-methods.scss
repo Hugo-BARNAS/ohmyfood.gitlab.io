@@ -120,22 +120,4 @@
     transform: scale(1.2);
     margin-right: 5px;
   }
-
-  // section restaurant
-
-  .container-list-of-restaurant-desktop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1rem;
-  }
-
-  .card-restaurant {
-    flex: 1;
-    flex-wrap: wrap;
-  }
-
-  .content-card-restaurant {
-    align-items: flex-end;
-  }
 }

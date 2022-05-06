@@ -12,7 +12,7 @@
   }
 }
 
-.card-restaurant > div {
+.card-restaurant {
   position: relative;
 }
 
@@ -52,4 +52,22 @@
   font-size: 15px;
   color: $tertiary-color-dark;
   font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .container-list-of-restaurant-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .card-restaurant {
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .content-card-restaurant {
+    align-items: flex-end;
+  }
 }

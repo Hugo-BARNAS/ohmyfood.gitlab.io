@@ -581,20 +581,7 @@ a i {
 
   .fa-mobile-screen-button {
     transform: scale(1.2);
-    margin-right: 5px; }
-
-  .container-list-of-restaurant-desktop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1rem; }
-
-  .card-restaurant {
-    flex: 1;
-    flex-wrap: wrap; }
-
-  .content-card-restaurant {
-    align-items: flex-end; } }
+    margin-right: 5px; } }
 .card-restaurant {
   display: flex;
   flex-direction: column;
@@ -607,7 +594,7 @@ a i {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer; }
 
-.card-restaurant > div {
+.card-restaurant {
   position: relative; }
 
 .img-card-restaurant {
@@ -642,6 +629,19 @@ a i {
   color: #247a65;
   font-weight: 600; }
 
+@media screen and (min-width: 768px) {
+  .container-list-of-restaurant-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem; }
+
+  .card-restaurant {
+    flex: 1;
+    flex-wrap: wrap; }
+
+  .content-card-restaurant {
+    align-items: flex-end; } }
 .fa-heart-home {
   position: absolute;
   bottom: 30px;
