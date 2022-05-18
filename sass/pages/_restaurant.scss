@@ -29,10 +29,8 @@ article div:nth-child(4) {
 }
 
 .title-restaurant {
-  justify-content: space-between;
-  align-self: center;
+  position: relative;
   margin-left: 0.5rem;
-  display: flex;
 }
 
 .name-restaurant {
@@ -40,10 +38,38 @@ article div:nth-child(4) {
 }
 
 .card-menu-restaurant {
+  position: relative;
   background-color: white;
   padding: 5px 10px;
   border-radius: 10px;
   margin-bottom: 1rem;
+  &__plat-1 {
+    animation: left-to-right 1000ms ease-in;
+  }
+  &__plat-2 {
+    animation: left-to-right 2000ms ease-in;
+  }
+  &__plat-3 {
+    animation: left-to-right 3000ms ease-in;
+  }
+  &__plat-4 {
+    animation: left-to-right 4s ease-in;
+  }
+  &__plat-5 {
+    animation: left-to-right 4.5s ease-in;
+  }
+  &__plat-6 {
+    animation: left-to-right 5s ease-in;
+  }
+  &__plat-7 {
+    animation: left-to-right 5.5s ease-in;
+  }
+  &__plat-8 {
+    animation: left-to-right 6s ease-in;
+  }
+  &__plat-9 {
+    animation: left-to-right 6.5s ease-in;
+  }
 }
 
 .title-menu {
@@ -61,9 +87,24 @@ article div:nth-child(4) {
   justify-content: space-between;
 }
 
-.description-starter-restaurant,
-.price-starter-restaurant {
+.description-starter-restaurant {
+  flex: 70%;
   margin: 0.25rem 0px 0.25rem 0px;
-  font-weight: 400;
   font-size: 15px;
+}
+
+.price-restaurant {
+  margin: 0.25rem 0px 0.25rem 0px;
+  font-size: 15px;
+}
+
+//slider menu
+
+@keyframes left-to-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }

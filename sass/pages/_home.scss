@@ -2,7 +2,22 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-// section slogon
+//loader
+
+.opacity {
+  animation: opacity 5s ease-in-out forwards;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// section slogan
 
 .localisation {
   justify-content: center;

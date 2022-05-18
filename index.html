@@ -23,7 +23,7 @@
 
 <body>
   <!-- header -->
-  <header>
+  <header class="opacity">
     <div class="container-header">
       <!-- mettre l'image pour le logo, met le lien qui ramène à la page d'accueil -->
       <img src="./images/logo/ohmyfood@2x.svg" alt="">
@@ -32,6 +32,10 @@
   </header>
   <!-- main -->
   <main>
+    <section>
+      <div class="loader">
+      </div>
+    </section>
     <!-- 
       Il faut diviser la page d'accueil en 3 section :
         - section 1 : du fomulaire jusqu'à "explorer nos restaurents"
@@ -41,7 +45,7 @@
 
 
     <!-- section 1 Formulaire + explorez nos restaurants -->
-    <section id="exploration-restaurant">
+    <section id="exploration-restaurant" class="opacity">
       <form class="localisation">
         <i class="fa-solid fa-location-dot"></i>
         <input type="text" class="city-name" placeholder="Paris, Belleville">
@@ -59,7 +63,7 @@
     </section>
 
     <!-- section 2 - Fonctionnement -->
-    <section id="working">
+    <section id="working" class="opacity">
       <h2>Fonctionnement</h2>
       <!--il faut utiliser une liste à la place des sections
         Regarde du coté de ::before et ::after en css pour l'ajout des éléments tel que les numéro-->
@@ -89,7 +93,7 @@
     </section>
 
     <!-- section 2 list des restaurants -->
-    <section id="list-of-restaurant">
+    <section id="list-of-restaurant opacity">
       <h2 class="container">Restaurants</h2>
       <div class="container container-list-of-restaurant-tablet container-list-of-restaurant-desktop">
         <article class="card-restaurant">
@@ -103,7 +107,9 @@
                 <h3>La palette du goût</h3>
                 <p class="address-card-restaurant">Ménilmontant</p>
               </div>
-              <i class="fa-regular fa-heart fa-heart-home"></i>
+
+              <i class="fa-regular fa-heart"></i>
+
             </div>
           </a>
         </article>
@@ -118,10 +124,10 @@
             </div>
             <div class="content-card-restaurant">
               <div class="text-card-restaurant">
-                <h3>La Note Enchanté<em></em></h3>
+                <h3>La note enchanté<em></em></h3>
                 <p class="address-card-restaurant">Charonne</p>
               </div>
-              <i class="fa-regular fa-heart fa-heart-home"></i>
+              <i class="fa-regular fa-heart"></i>
             </div>
           </a>
         </article>
@@ -136,17 +142,13 @@
             </div>
             <div class="content-card-restaurant">
               <div class="text-card-restaurant">
-
-                <h3>A la française</h3>
-
-
+                <h3>A la Française</h3>
                 <p class="address-card-restaurant">Cité Rouge</address>
-
               </div>
-              <i class="fa-regular fa-heart fa-heart-home"></i>
+              <i class="fa-regular fa-heart"></i>
             </div>
+          </a>
         </article>
-        </a>
         <!-- article 4 restaurant 4 -->
 
         <article class="card-restaurant">
@@ -157,21 +159,17 @@
             </div>
             <div class="content-card-restaurant">
               <div class="text-card-restaurant">
-
                 <h3>Délice des sens</h3>
-
-
                 <p class="address-card-restaurant">Folie-Méricourt</address>
-
               </div>
-              <i class="fa-regular fa-heart fa-heart-home"></i>
+              <i class="fa-regular fa-heart"></i>
             </div>
           </a>
         </article>
     </section>
   </main>
   <!-- footer -->
-  <footer>
+  <footer class="opacity">
     <div class="container container-footer">
       <a href="#">
         <img src="./images/logo/ohmyfood@2x.svg" class="logo-footer" alt="">
@@ -199,7 +197,6 @@
           </a>
         </li>
       </ul>
-    </div>
     </div>
   </footer>
 </body>

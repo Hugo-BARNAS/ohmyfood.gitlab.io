@@ -7,14 +7,15 @@
 @import "vendors/normalize";
 
 // 3. Base stuff
-@import "base/base", "base/fonts", "base/typography", "base/helpers";
+@import "base/base", "base/fonts", "base/typography", "base/helpers",
+  "base/loader";
 
 // 4. Layout-related sections
 @import "layout/header", "layout/footer";
 
 // 5. Components
 @import "components/button", "components/card-methods",
-  "components/card-restaurants", "components/heart";
+  "components/card-restaurants", "components/heart", "components/slide-box";
 
 // 6. Page-specific styles
 @import "pages/home", "pages/restaurant";
