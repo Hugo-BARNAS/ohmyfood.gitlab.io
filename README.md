@@ -1,6 +1,6 @@
 # ohmyfood
 
-Dynamisez une page web avec des animations CSS et mise en ligne sur GitLab
+Dynamisez une page web avec des animations CSS et mise en ligne sur GitLab.
 
 ## Contexte
 
