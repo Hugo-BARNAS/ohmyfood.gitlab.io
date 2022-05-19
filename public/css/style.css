@@ -627,7 +627,9 @@ a i {
 
 .img-card-restaurant {
   border-radius: 10px 10px 0px 0px;
-  width: 100%; }
+  width: 100%;
+  height: 152px;
+  object-fit: cover; }
 
 .content-card-restaurant {
   display: flex;
