@@ -7,11 +7,13 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Sections
    ========================================================================== */
@@ -19,13 +21,15 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-  display: block; }
+  display: block;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -33,7 +37,8 @@ main {
  */
 h1 {
   font-size: 1.25em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -47,7 +52,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -57,7 +63,8 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -65,7 +72,8 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -77,14 +85,16 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -96,13 +106,15 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -113,13 +125,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -127,7 +142,8 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 /* Forms
    ========================================================================== */
@@ -147,7 +163,8 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Show the overflow in IE.
@@ -156,7 +173,8 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -165,7 +183,8 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
@@ -174,7 +193,8 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; }
+  -webkit-appearance: button;
+}
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -184,7 +204,8 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -193,13 +214,15 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+  outline: 1px dotted ButtonText;
+}
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em; }
+  padding: 0.35em 0.75em 0.625em;
+}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -219,19 +242,22 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * 1. Add the correct box sizing in IE 10.
@@ -242,14 +268,16 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -259,13 +287,15 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -275,7 +305,8 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Interactive
    ========================================================================== */
@@ -283,13 +314,15 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block; }
+  display: block;
+}
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 /* Misc
    ========================================================================== */
@@ -297,19 +330,22 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none; }
+  display: none;
+}
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none; }
+  display: none;
+}
 
 /**
  * Set up a decent box model on the root element
  */
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -320,7 +356,8 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /**
  * Basic styles for links
@@ -328,16 +365,22 @@ html {
 a {
   color: #444444;
   text-decoration: none;
-  cursor: pointer; }
-  a:hover, a:active, a:focus {
-    color: #222222; }
+  cursor: pointer;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #222222;
+}
 
 /**
  * Basic typography style for copy text
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Roboto", sans-serif; }
+  font: normal 125%/1.4 "Roboto", sans-serif;
+}
 
 /**
  * Clear inner floats
@@ -345,7 +388,8 @@ body {
 .clearfix::after {
   clear: both;
   content: '';
-  display: table; }
+  display: table;
+}
 
 /**
  * Main content containers
@@ -365,7 +409,8 @@ body {
   padding-right: 20px;
   /* 3 */
   width: 100%;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * Hide text while making it readable for screen readers
@@ -377,7 +422,8 @@ body {
   padding: 0;
   /* 1 */
   text-indent: 101%;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
 /**
  * Hide element while making it readable for screen readers
@@ -392,7 +438,8 @@ body {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px; }
+  width: 1px;
+}
 
 .loader::before {
   z-index: 100;
@@ -412,84 +459,111 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  margin: auto; }
+  margin: auto;
+}
 
 @keyframes cercle {
   0% {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
+
   99% {
-    transform: rotate(360deg); }
+    transform: rotate(360deg);
+  }
+
   100% {
     display: none !important;
-    visibility: hidden; } }
+    visibility: hidden;
+  }
+}
+
 .container-header {
   display: flex;
   justify-content: center;
-  margin: 15px 0px; }
+  margin: 15px 0px;
+}
 
 .header-restaurant {
   padding: 15px;
-  display: flex; }
+  display: flex;
+}
 
 .logo-header {
   flex: 20%;
-  text-align: center; }
+  text-align: center;
+}
 
 .header-restaurant a {
-  color: black; }
+  color: black;
+}
 
 .arrow-left {
   padding-top: 3px;
-  width: 30px; }
+  width: 30px;
+}
 
 footer {
   background-color: #3d3a3a;
-  padding: 1rem 0 2rem 0; }
+  padding: 1rem 0 2rem 0;
+}
 
 footer img,
 .text-footer {
   color: white;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 a i {
-  padding-right: 0.5rem; }
+  padding-right: 0.5rem;
+}
 
 .container-footer {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem; }
+  gap: 0.25rem;
+}
 
 .logo-footer {
   width: 50%;
   padding-top: 20px;
-  filter: brightness(0) invert(1); }
+  filter: brightness(0) invert(1);
+}
 
 .fa-utensils {
-  padding-right: 5px; }
+  padding-right: 5px;
+}
 
 .fa-handshake-angle {
   transform: scale(0.7);
-  padding: 0px; }
+  padding: 0px;
+}
 
 @media screen and (min-width: 768px) {
   .logo-footer {
     transform: scale(1.5);
-    padding: 0px 0px 0px 10px; }
+    padding: 0px 0px 0px 10px;
+  }
 
   .footer-restaurant {
-    top: 30rem; }
+    top: 30rem;
+  }
 
   footer {
-    padding-top: 3rem; }
+    padding-top: 3rem;
+  }
 
   footer ul {
     display: flex;
-    gap: 30px; }
+    gap: 30px;
+  }
 
   .container-footer {
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; } }
+    align-items: center;
+  }
+}
+
 .btn {
   position: relative;
   z-index: 1;
@@ -501,32 +575,41 @@ a i {
   font-weight: 500;
   margin-bottom: 2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  transition: opacity 500ms, box-shadow 500ms, color 500ms; }
-  .btn__restaurant {
-    text-align: center;
-    font-size: 17px;
-    padding: 0.75rem 2rem 0.75rem 2rem; }
-  .btn:hover {
-    color: white;
-    opacity: 0.85;
-    box-shadow: #26394d 0px 20px 30px -10px; }
+  transition: opacity 500ms, box-shadow 500ms, color 500ms;
+}
+
+.btn__restaurant {
+  text-align: center;
+  font-size: 17px;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+}
+
+.btn:hover {
+  color: white;
+  opacity: 0.85;
+  box-shadow: #26394d 0px 20px 30px -10px;
+}
 
 .btn-restaurant {
   display: flex;
   justify-content: center;
-  margin: 3rem 0rem 2rem 0rem; }
+  margin: 3rem 0rem 2rem 0rem;
+}
 
 #working {
   padding: 0 1.25rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+}
 
 #working a {
-  position: relative; }
+  position: relative;
+}
 
 .method-to-choose-restaurant {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 .card-method-to-choose-restaurant {
   display: flex;
@@ -539,23 +622,30 @@ a i {
   border-radius: 20px;
   width: 100%;
   background-color: rgba(165, 164, 164, 0.2);
-  margin-bottom: 1rem; }
-  .card-method-to-choose-restaurant:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background-color: #ecafdb; }
+  margin-bottom: 1rem;
+}
+
+.card-method-to-choose-restaurant:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ecafdb;
+}
 
 .fa-mobile-screen-button {
   transform: scale(1.2);
-  margin: 0 10px; }
+  margin: 0 10px;
+}
 
 .content-1::before {
-  content: "1"; }
+  content: "1";
+}
 
 .content-2::before {
-  content: "2"; }
+  content: "2";
+}
 
 .content-3::before {
-  content: "3"; }
+  content: "3";
+}
 
 .content-style::before {
   display: flex;
@@ -570,7 +660,8 @@ a i {
   font-weight: 600;
   left: -13px;
   margin: 0px;
-  gap: 20px; }
+  gap: 20px;
+}
 
 .number-cercled {
   position: relative;
@@ -581,11 +672,13 @@ a i {
   color: white;
   font-weight: 600;
   left: 10px;
-  margin: 0px; }
+  margin: 0px;
+}
 
 .text-card-method-to-choose-restaurant {
   font-size: 15px;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
   #working ul {
@@ -593,23 +686,31 @@ a i {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem; }
+    gap: 2rem;
+  }
 
   .container-list-of-restaurant-tablet {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem; } }
+    gap: 1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #working ul {
     display: flex;
     justify-content: space-between;
-    gap: 10px; }
+    gap: 10px;
+  }
 
   .fa-mobile-screen-button {
     transform: scale(1.2);
-    margin-right: 5px; } }
+    margin-right: 5px;
+  }
+}
+
 .card-restaurant {
   display: flex;
   flex-direction: column;
@@ -617,36 +718,45 @@ a i {
   background-color: white;
   margin-bottom: 1rem;
   transition: 0.3s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
-  .card-restaurant:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
-    cursor: pointer; }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-restaurant:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
 
 .card-restaurant {
-  position: relative; }
+  position: relative;
+}
 
 .img-card-restaurant {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   height: 152px;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .content-card-restaurant {
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 .text-card-restaurant {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .address-card-restaurant {
   font-size: 15px;
-  margin: 0.2rem 0rem; }
+  margin: 0.2rem 0rem;
+}
 
 .top-img-card-restaurant {
-  position: relative; }
+  position: relative;
+}
 
 .new-card-restaurant {
   border-radius: 2px;
@@ -657,65 +767,97 @@ a i {
   margin-right: 1rem;
   font-size: 15px;
   color: #247a65;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 @media screen and (min-width: 768px) {
   .container-list-of-restaurant-desktop {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1rem; }
+    gap: 1rem;
+  }
 
   .card-restaurant {
     flex: 1;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+  }
 
   .content-card-restaurant {
-    align-items: flex-end; } }
+    align-items: flex-end;
+  }
+}
+
 .heart-page-restaurant {
   margin: 0;
-  bottom: 0; }
-  @media screen and (min-width: 768px) and (max-width: 930px) {
-    .heart-page-restaurant {
-      position: absolute;
-      margin: 0px;
-      padding: 0px; } }
-  @media screen and (min-width: 768px) and (max-width: 930px) {
-    .heart-page-restaurant {
-      margin-bottom: 1rem;
-      bottom: -15px;
-      right: 0; } }
-  @media screen and (min-width: 930px) {
-    .heart-page-restaurant {
-      top: 0;
-      bottom: 0; } }
+  bottom: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 930px) {
+  .heart-page-restaurant {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 930px) {
+  .heart-page-restaurant {
+    margin-bottom: 1rem;
+    bottom: -15px;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .heart-page-restaurant {
+    top: 0;
+    bottom: 0;
+  }
+}
 
 .fa-heart {
   position: absolute;
   right: 0px;
   cursor: pointer;
   padding: 10px 12px 8px;
-  transition: all 0.5s; }
-  .fa-heart:hover {
-    font-family: fontawesome;
-    font-style: normal;
-    color: #9356dc;
-    transform: color; }
-  @media screen and (min-width: 930px) {
-    .fa-heart {
-      bottom: 20px; } }
+  transition: all 0.5s;
+}
+
+.fa-heart:hover {
+  font-family: fontawesome;
+  font-style: normal;
+  color: #9356dc;
+}
+
+@media screen and (min-width: 930px) {
+  .fa-heart {
+    bottom: 20px;
+  }
+}
 
 @keyframes empty {
   0% {
-    transform: scaleX(0); }
+    transform: scaleX(0);
+  }
+
   17% {
-    transform: scaleX(0.18); }
+    transform: scaleX(0.18);
+  }
+
   24% {
-    transform: scaleX(0.4); }
+    transform: scaleX(0.4);
+  }
+
   46% {
-    transform: scaleX(0.81); }
+    transform: scaleX(0.81);
+  }
+
   100% {
-    transform: scaleX(1); } }
+    transform: scaleX(1);
+  }
+}
+
 span {
   transform: scaleX(0);
   position: absolute;
@@ -731,57 +873,78 @@ span {
   bottom: 0px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .check-meal {
   justify-content: center;
   align-content: center;
   display: flex;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .fa-circle-check {
   color: white;
-  transition: transform 330ms ease-in-out; }
+  transition: transform 330ms ease-in-out;
+}
 
 .card-menu-restaurant:hover span {
   transform: scaleX(1);
-  transform-origin: right 100%; }
+  transform-origin: right 100%;
+}
+
 .card-menu-restaurant:hover p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  width: 80px; }
+  width: 80px;
+}
+
 .card-menu-restaurant:hover .price-restaurant {
-  transition: transform 5s ease-in-out; }
-  .card-menu-restaurant:hover .price-restaurant:hover {
-    transform: translateX(-10%); }
+  transition: transform 5s ease-in-out;
+}
+
+.card-menu-restaurant:hover .price-restaurant:hover {
+  transform: translateX(-10%);
+}
+
 .card-menu-restaurant:hover .description-starter-restaurant {
-  padding-right: 20px; }
+  padding-right: 20px;
+}
 
 .opacity {
-  animation: opacity 5s ease-in-out forwards; }
+  animation: opacity 5s ease-in-out forwards;
+}
 
 @keyframes opacity {
   0% {
-    opacity: 0.3; }
+    opacity: 0.3;
+  }
+
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
+
 .localisation {
   justify-content: center;
   padding: 1.5rem 0rem;
   box-shadow: inset 0em 5px 0.2em rgba(165, 164, 164, 0.3);
   display: flex;
-  background-color: rgba(165, 164, 164, 0.3); }
+  background-color: rgba(165, 164, 164, 0.3);
+}
 
 .city-name {
   border: none;
   display: flex;
   align-items: center;
-  padding: 0px; }
+  padding: 0px;
+}
 
 ::placeholder {
   background-color: rgba(165, 164, 164, 0.3);
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
 
 .slogan-home {
   display: flex;
@@ -791,91 +954,130 @@ span {
   align-items: center;
   background-color: rgba(165, 164, 164, 0.2);
   margin-bottom: 2rem;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+}
 
 .slogan-text {
   margin: 0rem 0rem 2rem 0rem;
   font-size: 17px;
   color: grey;
-  width: 100%; }
+  width: 100%;
+}
 
 h2 {
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 h3 {
   color: black;
   margin: 0px;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .fa-mobile-screen-button,
 .fa-list,
 .fa-store {
-  color: #8d8b8b; }
+  color: #8d8b8b;
+}
 
 #list-of-restaurant {
   background-color: rgba(165, 164, 164, 0.2);
-  padding: 3rem 0rem 3rem 0rem; }
+  padding: 3rem 0rem 3rem 0rem;
+}
 
 ul {
   list-style: none;
-  padding: 0px; }
+  padding: 0px;
+}
 
 .img-restaurant {
   background-size: cover;
   width: 100%;
   height: 250px;
-  margin-bottom: -3rem; }
-  .img-restaurant--restaurant-1 {
-    background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/a-la-francaise.jpg"); }
-  .img-restaurant--restaurant-2 {
-    background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/delice-des-sens.jpg"); }
-  .img-restaurant--restaurant-3 {
-    background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/note-enchantee.jpg"); }
-  .img-restaurant--restaurant-4 {
-    background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/palette-gout.jpg"); }
+  margin-bottom: -3rem;
+}
+
+.img-restaurant--restaurant-1 {
+  background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/a-la-francaise.jpg");
+}
+
+.img-restaurant--restaurant-2 {
+  background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/delice-des-sens.jpg");
+}
+
+.img-restaurant--restaurant-3 {
+  background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/note-enchantee.jpg");
+}
+
+.img-restaurant--restaurant-4 {
+  background-image: url("https://hugo-barnas.github.io/ohmyfood.github.io/images/restaurants/palette-gout.jpg");
+}
 
 .menu-restaurant {
   background-color: #f0f0f0;
   padding: 1rem;
   border-radius: 50px 50px 0px 0px;
-  width: 100%; }
+  width: 100%;
+}
 
 article div:nth-child(4) {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 .title-restaurant {
   position: relative;
-  margin-left: 0.5rem; }
+  margin-left: 0.5rem;
+}
 
 .name-restaurant {
-  font-family: "Shrikhand", cursive; }
+  font-family: "Shrikhand", cursive;
+}
 
 .card-menu-restaurant {
   position: relative;
   background-color: white;
   padding: 5px 10px;
   border-radius: 10px;
-  margin-bottom: 1rem; }
-  .card-menu-restaurant__plat-1 {
-    animation: left-to-right 1000ms ease-in; }
-  .card-menu-restaurant__plat-2 {
-    animation: left-to-right 2000ms ease-in; }
-  .card-menu-restaurant__plat-3 {
-    animation: left-to-right 3000ms ease-in; }
-  .card-menu-restaurant__plat-4 {
-    animation: left-to-right 4s ease-in; }
-  .card-menu-restaurant__plat-5 {
-    animation: left-to-right 4.5s ease-in; }
-  .card-menu-restaurant__plat-6 {
-    animation: left-to-right 5s ease-in; }
-  .card-menu-restaurant__plat-7 {
-    animation: left-to-right 5.5s ease-in; }
-  .card-menu-restaurant__plat-8 {
-    animation: left-to-right 6s ease-in; }
-  .card-menu-restaurant__plat-9 {
-    animation: left-to-right 6.5s ease-in; }
+  margin-bottom: 1rem;
+}
+
+.card-menu-restaurant__plat-1 {
+  animation: left-to-right 1000ms ease-in;
+}
+
+.card-menu-restaurant__plat-2 {
+  animation: left-to-right 2000ms ease-in;
+}
+
+.card-menu-restaurant__plat-3 {
+  animation: left-to-right 3000ms ease-in;
+}
+
+.card-menu-restaurant__plat-4 {
+  animation: left-to-right 4s ease-in;
+}
+
+.card-menu-restaurant__plat-5 {
+  animation: left-to-right 4.5s ease-in;
+}
+
+.card-menu-restaurant__plat-6 {
+  animation: left-to-right 5s ease-in;
+}
+
+.card-menu-restaurant__plat-7 {
+  animation: left-to-right 5.5s ease-in;
+}
+
+.card-menu-restaurant__plat-8 {
+  animation: left-to-right 6s ease-in;
+}
+
+.card-menu-restaurant__plat-9 {
+  animation: left-to-right 6.5s ease-in;
+}
 
 .title-menu {
   margin: 0rem 0rem 1rem 0.5rem;
@@ -883,29 +1085,39 @@ article div:nth-child(4) {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 2px solid #1cb11c; }
+  border-bottom: 2px solid #1cb11c;
+}
 
 .part-description-starter-restaurant {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .description-starter-restaurant {
   flex: 70%;
   margin: 0.25rem 0px 0.25rem 0px;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .price-restaurant {
   margin: 0.25rem 0px 0.25rem 0px;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 @keyframes left-to-right {
   from {
-    transform: translateX(-100%); }
+    transform: translateX(-100%);
+  }
+
   to {
-    transform: translateX(0%); } }
+    transform: translateX(0%);
+  }
+}
+
 body {
   max-width: 1000px;
-  margin: auto; }
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
