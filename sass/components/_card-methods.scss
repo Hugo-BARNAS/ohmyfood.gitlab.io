@@ -31,10 +31,17 @@
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     background-color: $secondary-color-very-light;
+    .fa-mobile-screen-button,
+    .fa-list,
+    .fa-store {
+      color: $primary-color;
+    }
   }
 }
 
-.fa-mobile-screen-button {
+.fa-mobile-screen-button,
+.fa-list,
+.fa-store {
   transform: scale(1.2);
   margin: 0 10px;
 }
@@ -82,6 +89,12 @@
 .text-card-method-to-choose-restaurant {
   font-size: 15px;
   font-weight: 600;
+}
+
+.fa-mobile-screen-button,
+.fa-list,
+.fa-store {
+  color: rgb(141, 139, 139);
 }
 
 // Format tablet

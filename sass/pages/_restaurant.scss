@@ -43,32 +43,33 @@ article div:nth-child(4) {
   padding: 5px 10px;
   border-radius: 10px;
   margin-bottom: 1rem;
-  &__plat-1 {
-    animation: left-to-right 1000ms ease-in;
+  &__plat {
+    @for $i from 1 to 10 {
+      &-#{$i} {
+        animation: 300ms * $i bottom-to-top 0s linear forwards;
+      }
+    }
   }
-  &__plat-2 {
-    animation: left-to-right 2000ms ease-in;
+}
+
+//slider menu
+
+@keyframes bottom-to-top {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
   }
-  &__plat-3 {
-    animation: left-to-right 3000ms ease-in;
+  50% {
+    opacity: 0.3;
+    transform: translateY(50%);
   }
-  &__plat-4 {
-    animation: left-to-right 4s ease-in;
+  70% {
+    opacity: 0.7;
+    transform: translateY(30%);
   }
-  &__plat-5 {
-    animation: left-to-right 4.5s ease-in;
-  }
-  &__plat-6 {
-    animation: left-to-right 5s ease-in;
-  }
-  &__plat-7 {
-    animation: left-to-right 5.5s ease-in;
-  }
-  &__plat-8 {
-    animation: left-to-right 6s ease-in;
-  }
-  &__plat-9 {
-    animation: left-to-right 6.5s ease-in;
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
 }
 
@@ -96,15 +97,4 @@ article div:nth-child(4) {
 .price-restaurant {
   margin: 0.25rem 0px 0.25rem 0px;
   font-size: 15px;
-}
-
-//slider menu
-
-@keyframes left-to-right {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
 }
