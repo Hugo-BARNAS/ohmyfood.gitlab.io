@@ -4,7 +4,8 @@
   "description": "Dynamisez une page web avec des animations CSS",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://gitlab.com/hugo.barnas/ohmyfood/issues"
   },
-  "homepage": "https://gitlab.com/hugo.barnas/ohmyfood#readme"
+  "homepage": "https://gitlab.com/hugo.barnas/ohmyfood#readme",
+  "browserslist": "last 4 version"
 }
